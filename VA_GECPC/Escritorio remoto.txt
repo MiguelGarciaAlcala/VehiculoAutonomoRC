@@ -1,0 +1,13 @@
+ACCESO A ESCRITORIO REMOTO
+Para acceder a Raspberry Pi de forma remota, debemos instalar
+los siguientes paquetes:
+
+   1. VNC Server
+       sudo apt-get install tightvncserver
+
+   2. XRDP
+       sudo apt-get install xrdp
+
+Una vez instalados, reiniciamos con el comando sudo reboot y accedemos
+al escritorio de Raspberry Pi con ayuda de VNC Viewer o la herramienta 
+Conexión e escritorio remoto de Windows.

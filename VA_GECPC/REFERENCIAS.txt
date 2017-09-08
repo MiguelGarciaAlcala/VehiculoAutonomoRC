@@ -1,0 +1,11 @@
+Python IO
+https://docs.python.org/2/library/io.html
+
+PiCamera API
+http://picamera.readthedocs.io/en/release-1.10/api_camera.html
+
+PiCamera - BasicRecipes
+http://picamera.readthedocs.io/en/release-1.10/recipes1.html
+
+PiCamera Streaming
+https://stackoverflow.com/questions/21702477/how-to-parse-mjpeg-http-stream-from-ip-camera

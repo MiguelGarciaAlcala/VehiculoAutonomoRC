@@ -1,0 +1,14 @@
+PROTOCOLO SSH
+Esta herramienta nos permite trabajar con Raspberry usando un cable ethernet.
+
+1. IP estática
+    Para trabajar con una dirección IP estática, se debe agregar
+    el siguiente código en el archivo cmd de Raspbian:
+
+    ip=IP_RASPBERRY::IP_HOST:255.255.255.0:rpi:eth0:off
+
+2. Luego, se debe crear un archivo llamado ssh sin extension en la tarjeta micro-SD.
+   De esta forma, podemos acceder a Raspberry mediante el protocolo SSH.
+
+3. Finalmente, conectamos Raspberry Pi con un cable de red a nuestro equipo e
+    iniciamos sesión a través de putty o Tera Term.
