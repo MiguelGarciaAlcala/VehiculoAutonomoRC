@@ -1,9 +1,9 @@
 PROTOCOLO SSH
-Esta herramienta nos permite trabajar con Raspberry usando un cable ethernet.
+Esta herramienta nos permite trabajar con Raspberry de manera remota.
 
-1. IP estática
-    Para trabajar con una dirección IP estática, se debe agregar
-    el siguiente código en el archivo cmd de Raspbian:
+1. IP estÃ¡tica
+    Para trabajar con una direcciÃ³n IP estÃ¡tica, se debe agregar
+    el siguiente cÃ³digo en el archivo cmd de Raspbian:
 
     ip=IP_RASPBERRY::IP_HOST:255.255.255.0:rpi:eth0:off
 
@@ -11,4 +11,4 @@ Esta herramienta nos permite trabajar con Raspberry usando un cable ethernet.
    De esta forma, podemos acceder a Raspberry mediante el protocolo SSH.
 
 3. Finalmente, conectamos Raspberry Pi con un cable de red a nuestro equipo e
-    iniciamos sesión a través de putty o Tera Term.
+    iniciamos sesiÃ³n a travÃ©s de Putty o Tera Term.
